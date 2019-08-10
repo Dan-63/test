@@ -5,11 +5,11 @@ int main(void) {
 
 	dl_initialize(1.0); 
 	
-	dl_clear(dl_color_from_rgb(0,0,0));
+	/*dl_clear(dl_color_from_rgb(0,0,0));*/
 	
 	for (i = 0; i < 30; i++) {
 		/*dl_ellipse(320, 240, 0 + i * 10, 0 + i * 15, 0 + i * 5 , 0, 360,  dl_color_from_rgb(255,0 + 5*i, 0 + 10*i),4, 0);*/
-		dl_circle(0,0,30 + i * 15, dl_color_from_rgb(255-i*5,255-i*2,255-i*2),2,0);
+	/*	dl_circle(0,0,30 + i * 15, dl_color_from_rgb(255-i*5,255-i*2,255-i*2),2,0);
 
 		dl_circle(640,0,30 + i * 15, dl_color_from_rgb(255-i*5,255-i*2,255-i*2),2,0);
 
@@ -20,7 +20,7 @@ int main(void) {
 		dl_circle(320,240,30 + i * 15, dl_color_from_rgb(255-i*10,255-i*4,255-i*4),2,0);
 
 	  dl_rectangle(315 - 10 * i, 235 - 10 * i, 325 + 10 * i, 245 + 10 * i, dl_color_from_rgb(100 + 13 * i, 255 - 18 * i, 165 + 8 * i), 2, 0);
-
+*/
   }  
 
 /*カービィ*/
